@@ -46,6 +46,8 @@ Tags are lowercase, space-separated; weight emphasis needs higher values than SD
 
 Try all three with the same prompt/seed; the best one is often not the final one.
 
+**Download**: click a file above → **Raw** (or "Download raw file") to save the .safetensors.
+
 ## Training
 
 232 Blue Archive character images, auto-captioned with PixAI Tagger v1.0; trained with sd-scripts `anima_train_network.py` (dim 8 / alpha 1, LR 1e-4, AdamW8bit, 3 epochs / 1392 steps).
