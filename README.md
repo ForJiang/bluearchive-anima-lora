@@ -46,17 +46,17 @@ Tags are lowercase, space-separated; weight emphasis needs higher values than SD
 
 Try all three with the same prompt/seed; the best one is often not the final one.
 
-**Download**: click a file above → **Raw** (or "Download raw file") to save the .safetensors.
+**Download**: click a file above, then click **Raw** (or "Download raw file") to save the .safetensors.
 
 ## Training
 
 232 Blue Archive character images, auto-captioned with PixAI Tagger v1.0; trained with sd-scripts `anima_train_network.py` (dim 8 / alpha 1, LR 1e-4, AdamW8bit, 3 epochs / 1392 steps).
 
-## ⚠️ License (must keep when redistributing)
+## License (must keep when redistributing)
 
 This LoRA is a **derivative work under the CircleStone Labs Non-Commercial License v1.2** (the license explicitly defines LoRAs as Derivatives):
 
-- ✅ Allowed: personal use, study, research, non-profit sharing
-- ❌ Not allowed: any direct or indirect commercial use
+- Allowed: personal use, study, research, non-profit sharing
+- Not allowed: any direct or indirect commercial use
 
 License text: https://huggingface.co/circlestone-labs/Anima/blob/main/LICENSE.md
